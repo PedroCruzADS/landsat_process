@@ -1,0 +1,147 @@
+{
+    "id": "f589fc31-98bc-5f72-833d-ceb4334cd482",
+    "crs": "epsg:32623",
+    "grids": {
+        "default": {
+            "shape": [
+                7751,
+                7591
+            ],
+            "transform": [
+                30.0,
+                0.0,
+                541785.0,
+                0.0, -30.0, -44085.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    },
+    "extent": {
+        "lat": {
+            "end": -0.398492245459657,
+            "begin": -2.502552560194054
+        },
+        "lon": {
+            "end": -42.576369261728026,
+            "begin": -44.62448242296314
+        }
+    },
+    "$schema": "https://schemas.opendatacube.org/dataset",
+    "lineage": {
+        "source_datasets": {
+
+        }
+    },
+    "product": {
+        "name": "ls8_l1_gs_atm_corrected"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    541785.0, -44085.0
+                ],
+                [
+                    769515.0, -44085.0
+                ],
+                [
+                    769515.0, -276615.0
+                ],
+                [
+                    541785.0, -276615.0
+                ],
+                [
+                    541785.0, -44085.0
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "datetime": "2018-09-14 13:53:37",
+        "eo:platform": "Landsat",
+        "eo:instrument": "OLI_TIRS",
+        "mq:local_scene": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1",
+            "lineage": {
+                "atm_corr": [
+                    "526aa705-f004-59b9-83b2-e30ec8cdaa94"
+                ]
+            },
+            "platform": "Landsat",
+            "remote_id": "LC08_L1TP_228061_20180914_20180928_01_T1",
+            "instrument": "OLI_TIRS",
+            "sensing_time": "2018-09-14 13:53:37"
+        }
+    },
+    "grid_spatial": {
+        "projection": {
+            "valid_data": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            541785.0, -44085.0
+                        ],
+                        [
+                            769515.0, -44085.0
+                        ],
+                        [
+                            769515.0, -276615.0
+                        ],
+                        [
+                            541785.0, -276615.0
+                        ],
+                        [
+                            541785.0, -44085.0
+                        ]
+                    ]
+                ]
+            },
+            "geo_ref_points": {
+                "ll": {
+                    "x": 541785.0,
+                    "y": -276615.0
+                },
+                "lr": {
+                    "x": 769515.0,
+                    "y": -276615.0
+                },
+                "ul": {
+                    "x": 541785.0,
+                    "y": -44085.0
+                },
+                "ur": {
+                    "x": 769515.0,
+                    "y": -44085.0
+                }
+            },
+            "spatial_reference": "epsg:32623"
+        }
+    },
+    "measurements": {
+        "B1": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B1.TIF"
+        },
+        "B2": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B2.TIF"
+        },
+        "B3": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B3.TIF"
+        },
+        "B4": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B4.TIF"
+        },
+        "B5": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B5.TIF"
+        },
+        "B6": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B6.TIF"
+        },
+        "B7": {
+            "path": "/data/repository/ls8_l1_gs_atm_corrected/LC08_L1TP_228061_20180914_20180928_01_T1/LC08_L1TP_228061_20180914_20180928_01_T1_B7.TIF"
+        }
+    }
+}

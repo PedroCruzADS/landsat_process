@@ -1,0 +1,114 @@
+{
+    "id": "",
+    "crs": "",
+    "grids": {
+        "default": {
+            "shape": [],
+            "transform": []
+        }
+    },
+    "extent": {
+        "lat": {
+            "end": 0,
+            "begin": 0
+        },
+        "lon": {
+            "end": 0,
+            "begin": 0
+        }
+    },
+    "$schema": "https://schemas.opendatacube.org/dataset",
+    "lineage": {
+        "source_datasets": {
+
+        }
+    },
+    "product": {
+        "name": ""
+    },
+    "geometry": {
+        "type": "",
+        "coordinates": [
+            [
+                [],
+                [],
+                [],
+                [],
+                []
+            ]
+        ]
+    },
+    "properties": {
+        "datetime": "",
+        "eo:platform": "",
+        "eo:instrument": "",
+        "mq:local_scene": {
+            "path": "",
+            "lineage": {
+                "atm_corr": []
+            },
+            "platform": "",
+            "remote_id": "",
+            "instrument": "",
+            "sensing_time": ""
+        }
+    },
+    "grid_spatial": {
+        "projection": {
+            "valid_data": {
+                "type": "",
+                "coordinates": [
+                    [
+                        [],
+                        [],
+                        [],
+                        [],
+                        []
+                    ]
+                ]
+            },
+            "geo_ref_points": {
+                "ll": {
+                    "x": 0,
+                    "y": 0
+                },
+                "lr": {
+                    "x": 0,
+                    "y": 0
+                },
+                "ul": {
+                    "x": 0,
+                    "y": 0
+                },
+                "ur": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "spatial_reference": ""
+        }
+    },
+    "measurements": {
+        "B1": {
+            "path": ""
+        },
+        "B2": {
+            "path": ""
+        },
+        "B3": {
+            "path": ""
+        },
+        "B4": {
+            "path": ""
+        },
+        "B5": {
+            "path": ""
+        },
+        "B6": {
+            "path": ""
+        },
+        "B7": {
+            "path": ""
+        }
+    }
+}
