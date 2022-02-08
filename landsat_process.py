@@ -13,4 +13,3 @@ landsat_process.landsat_org_files()
 ImagemProcessBatch.recortar(landsat_id_original_files_dir, shapefile, landsat_id_crop_dir)
 ImagemProcessBatch.reescalar(landsat_id_crop_dir, landsat_id_product_dir)
 ImagemProcessBatch.aplicar_algoritmos(landsat_id_product_dir, landsat_id_product_dir)
-
